@@ -4,14 +4,14 @@ class Person {
 		this._name;
 		this._age;
 	}
-}
+
 get(){
 	return this._name;
 }
 set(value){
 	return this._age;
 }
-
+}
 class Student extends Person {
 	study() {
     console.log('${this._name}'is studying);
