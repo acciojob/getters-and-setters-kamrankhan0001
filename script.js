@@ -26,8 +26,8 @@ class Teacher extends Person {
     console.log('${this._name}'+'john is teaching');
 }
 }
-const student = new student("John", 30);
-(student.name).to.equal("John");
+
+
 
 // Do not change the code below this line
 window.Person = Person;
