@@ -9,7 +9,7 @@ get name(){
 	return this._name;
 }
 set age(value){
-	return this._age;
+	this._age value;
 }
 }
 class Student extends Person {
