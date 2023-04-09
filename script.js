@@ -17,16 +17,17 @@ class Person {
 
 class Student extends Person {
 	study() {
-    return "Alice is studying";
+    console.log('${this._name}'+'Alice is studying');
   }
 }
 
 class Teacher extends Person {
 	teach() {
-    return "john is studying";
+    console.log('${this._name}'+'john is teaching');
 }
 }
-
+const student = new student("John", 30);
+(student.name).to.equal("John");
 
 // Do not change the code below this line
 window.Person = Person;
